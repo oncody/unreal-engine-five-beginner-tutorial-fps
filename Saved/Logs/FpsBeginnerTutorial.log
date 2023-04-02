@@ -1322,3 +1322,49 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.02-19.52.18:124][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 28.4 sec)
 [2023.04.02-19.52.18:126][141]AssetCheck: New page: Asset Save: DemoLevel
 [2023.04.02-19.52.18:126][141]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.02-19.55.14:388][ 71]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: ================================================
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Total job queries 123, among them cache hits 8 (6.50%)
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Tracking 111 distinct input hashes that result in 90 distinct outputs (81.08%)
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: RAM used: 0.94 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Shaders Compiled: 34
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Jobs assigned 38, completed 34 (89.47%)
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Average time worker was idle: 273.23 s
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.10 s
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 0.96 s
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.06
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.99 s
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Average processing rate: 6.82 jobs/sec
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Total thread time: 12.57 s
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Total thread preprocess time: 0.77 s
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Percentage time preprocessing: 6.10%
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Effective parallelization: 2.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.51 sec, max 0.61 sec, min 0.44 sec)
+[2023.04.02-19.55.14:908][121]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.47 sec, max 0.54 sec, min 0.39 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.45 sec, max 0.47 sec, min 0.44 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.19% of total time (compiled    6 times, average 0.51 sec, max 0.61 sec, min 0.44 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.26% of total time (compiled    6 times, average 0.47 sec, max 0.54 sec, min 0.39 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.47% of total time (compiled    6 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.27% of total time (compiled    7 times, average 0.27 sec, max 0.33 sec, min 0.24 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.21% of total time (compiled    2 times, average 0.45 sec, max 0.47 sec, min 0.44 sec)
+[2023.04.02-19.55.14:909][121]LogShaderCompilers: Display: ================================================
+[2023.04.02-19.55.39:903][ 61]LogEditorViewport: Clicking Background
+[2023.04.02-19.56.00:993][440]LogEditorViewport: Clicking Background
+[2023.04.02-19.56.46:036][624]LogEditorViewport: Clicking Background
+[2023.04.02-19.56.46:456][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.04.02-19.56.46:461][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.02-19.56.46:480][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.02-19.56.46:486][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.04.02-19.56.46:495][671]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.02-19.56.46:495][671]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel3A162A144F748723102E7A9B334EAA4A.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.02-19.56.46:500][671]LogFileHelpers: Saving map 'DemoLevel' took 0.019
+[2023.04.02-19.56.46:514][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 28.5 sec)
+[2023.04.02-19.56.46:517][671]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.02-19.56.46:517][671]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
