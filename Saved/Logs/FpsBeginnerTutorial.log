@@ -1368,3 +1368,306 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.02-19.56.46:514][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 28.5 sec)
 [2023.04.02-19.56.46:517][671]AssetCheck: New page: Asset Save: DemoLevel
 [2023.04.02-19.56.46:517][671]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.02-19.58.49:510][395]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-19.59.11:394][951]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.04.02-19.59.26:102][614]LogEditorViewport: Clicking Background
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: ================================================
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Total job queries 129, among them cache hits 8 (6.20%)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Tracking 116 distinct input hashes that result in 93 distinct outputs (80.17%)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: RAM used: 0.97 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Shaders Compiled: 39
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Jobs assigned 44, completed 39 (88.64%)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Average time worker was idle: 315.39 s
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.10 s
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Job execution time: average 0.60 s, max 0.96 s
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.06
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.79 s
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Jobs were issued in 44 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Average processing rate: 6.73 jobs/sec
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Total thread time: 14.77 s
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Total thread preprocess time: 0.89 s
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Percentage time preprocessing: 6.03%
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Effective parallelization: 2.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.51 sec, max 0.61 sec, min 0.44 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 0.49 sec, max 0.57 sec, min 0.44 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.46 sec, max 0.54 sec, min 0.39 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.12% of total time (compiled    7 times, average 0.51 sec, max 0.61 sec, min 0.44 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.83% of total time (compiled    7 times, average 0.46 sec, max 0.54 sec, min 0.39 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.55% of total time (compiled    7 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.00% of total time (compiled    7 times, average 0.27 sec, max 0.33 sec, min 0.24 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.01% of total time (compiled    3 times, average 0.49 sec, max 0.57 sec, min 0.44 sec)
+[2023.04.02-20.01.05:171][488]LogShaderCompilers: Display: ================================================
+[2023.04.02-20.02.26:709][575]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.02-20.02.26:714][576]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18824
+[2023.04.02-20.02.26:749][580]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=31.81
+[2023.04.02-20.02.26:749][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.02-20.02.26:749][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.02-20.02.30:911][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.04.02-20.02.30:915][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.02-20.02.30:933][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.02-20.02.30:939][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.04.02-20.02.30:950][ 71]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.02-20.02.30:950][ 71]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel5B93E4BC4DCEA557E9547A88DD3E9FFD.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.02-20.02.30:954][ 71]LogFileHelpers: Saving map 'DemoLevel' took 0.021
+[2023.04.02-20.02.30:960][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 28.5 sec)
+[2023.04.02-20.02.30:962][ 71]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.02-20.02.30:962][ 71]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.02-20.02.35:264][280]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.04.02-20.02.35:336][280]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18824
+[2023.04.02-20.02.35:671][281]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ab566a5-6ee3-43fb-bf7d-b8cadd493c23}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=127.95
+[2023.04.02-20.02.35:671][281]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.02-20.02.35:672][281]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD7F070B-46CF-3830-3F60-59AFE20FAD31%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: libcurl info message cache 0 (Too old connection (5099 seconds idle), disconnect it)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: libcurl info message cache 2 (Closing connection 0)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: 000005D11D2BF000: libcurl info message cache 5 (Closing connection 1)
+[2023.04.02-21.27.23:736][292]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD7F070B-46CF-3830-3F60-59AFE20FAD31%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.04.02-21.27.24:317][293]LogHttp: Warning: 000005D11D2BFA00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD7F070B-46CF-3830-3F60-59AFE20FAD31%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.04.02-21.27.24:317][293]LogHttp: Warning: 000005D11D2BFA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.04.02-21.27.24:317][293]LogHttp: Warning: 000005D11D2BFA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.04.02-21.27.24:317][293]LogHttp: Warning: 000005D11D2BFA00: libcurl info message cache 1 (Closing connection 2)
+[2023.04.02-21.27.24:317][293]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBD7F070B-46CF-3830-3F60-59AFE20FAD31%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.04.02-21.27.26:091][297]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.02-21.27.26:524][297]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18824
+[2023.04.02-21.27.27:236][298]LogViewport: Scene viewport resized to 1724x771, mode Windowed.
+[2023.04.02-21.27.27:357][298]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=64.97
+[2023.04.02-21.27.27:357][298]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.02-21.27.27:358][298]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.02-21.27.39:439][334]LogViewport: Scene viewport resized to 1724x743, mode Windowed.
+[2023.04.02-21.27.47:429][102]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Cody’s AirPods Max), InstanceID=1
+[2023.04.02-21.27.47:431][102]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18824
+[2023.04.02-21.27.47:483][108]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{835691b9-0476-456e-878f-a66d3c1529ed}, Name=Headphones (Cody’s AirPods Max)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=43.66
+[2023.04.02-21.27.47:483][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.02-21.27.47:485][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.02-21.28.09:516][903]Cmd: TRANSACTION UNDO
+[2023.04.02-21.28.09:516][903]LogEditorTransaction: Undo Rotate Elements
+[2023.04.02-21.28.23:039][124]Cmd: TRANSACTION UNDO
+[2023.04.02-21.28.23:039][124]LogEditorTransaction: Undo Select Brush Surface
+[2023.04.02-21.28.37:097][696]Cmd: TRANSACTION UNDO
+[2023.04.02-21.28.37:098][696]LogEditorTransaction: Undo Select Brush Surface
+[2023.04.02-21.28.47:469][802]Cmd: TRANSACTION UNDO
+[2023.04.02-21.28.47:469][802]LogEditorTransaction: Undo Select Brush Surface
+[2023.04.02-21.28.48:926][937]Cmd: TRANSACTION UNDO
+[2023.04.02-21.28.48:926][937]LogEditorTransaction: Undo Select Brush Surface
+[2023.04.02-21.29.30:582][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.04.02-21.29.30:595][770]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/DemoLevel_Auto1
+[2023.04.02-21.29.30:595][770]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel_Auto1811D084643F8A9CC24E868A3C6885B1E.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Autosaves/Game/MyContent/DemoLevel_Auto1.umap'
+[2023.04.02-21.29.30:599][770]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/DemoLevel' took 0.026
+[2023.04.02-21.29.30:599][770]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2023.04.02-21.29.34:435][223]Cmd: MODE GRID=1
+[2023.04.02-21.30.01:647][  3]LogEditorViewport: Clicking Background
+[2023.04.02-21.30.14:294][497]LogEditorViewport: Clicking Background
+[2023.04.02-21.30.41:612][759]LogEditorViewport: Clicking Background
+[2023.04.02-21.30.45:308][199]Cmd: MODE GRID=0
+[2023.04.02-21.31.01:152][ 59]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.04.02-21.31.01:152][ 59]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.04.02-21.31.01:152][ 59]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Emitter_0
+[2023.04.02-21.31.01:156][ 59]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Emitter_0
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Total job queries 135, among them cache hits 12 (8.89%)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Tracking 123 distinct input hashes that result in 100 distinct outputs (81.30%)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: RAM used: 1.02 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Shaders Compiled: 46
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Jobs assigned 46, completed 46 (100.00%)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Average time worker was idle: 623.30 s
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.10 s
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Job execution time: average 0.60 s, max 0.96 s
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Job life time (pending + execution): average 0.65 s, max 1.06
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.78 s
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Average processing rate: 6.78 jobs/sec
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Total thread time: 17.93 s
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Total thread preprocess time: 1.12 s
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Percentage time preprocessing: 6.24%
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Effective parallelization: 2.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.50 sec, max 0.61 sec, min 0.40 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 0.49 sec, max 0.57 sec, min 0.44 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   10 times, average 0.46 sec, max 0.54 sec, min 0.39 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.63% of total time (compiled   10 times, average 0.50 sec, max 0.61 sec, min 0.40 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.76% of total time (compiled   10 times, average 0.46 sec, max 0.54 sec, min 0.39 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.11% of total time (compiled    7 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.70% of total time (compiled    7 times, average 0.27 sec, max 0.33 sec, min 0.24 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.24% of total time (compiled    3 times, average 0.49 sec, max 0.57 sec, min 0.44 sec)
+[2023.04.02-21.31.01:848][140]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.31.02:417][206]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.04.02-21.31.02:417][206]LogActorFactory: Actor Factory attempting to spawn ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire
+[2023.04.02-21.31.02:419][206]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Emitter_1
+[2023.04.02-21.31.02:419][206]LogActorFactory: Actor Factory spawned ParticleSystem /Game/StarterContent/Particles/P_Fire.P_Fire as actor: Emitter /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Emitter_1
+[2023.04.02-21.33.28:632][581]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-21.34.05:886][931]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-21.34.36:772][550]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-21.35.23:918][771]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Total job queries 165, among them cache hits 17 (10.30%)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 118 distinct outputs (81.94%)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: RAM used: 1.16 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Shaders Compiled: 67
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Jobs assigned 71, completed 67 (94.37%)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Average time worker was idle: 1629.71 s
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.56 s
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 0.96 s
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Job life time (pending + execution): average 0.68 s, max 1.08
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.53 s
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Jobs were issued in 71 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Average processing rate: 7.86 jobs/sec
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Total thread time: 28.07 s
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Total thread preprocess time: 1.79 s
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Percentage time preprocessing: 6.37%
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Effective parallelization: 3.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 0.51 sec, max 0.61 sec, min 0.40 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   17 times, average 0.50 sec, max 0.68 sec, min 0.37 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 0.50 sec, max 0.58 sec, min 0.42 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    2 times, average 0.44 sec, max 0.51 sec, min 0.37 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 30.29% of total time (compiled   17 times, average 0.50 sec, max 0.68 sec, min 0.37 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.24% of total time (compiled   15 times, average 0.51 sec, max 0.61 sec, min 0.40 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.29% of total time (compiled    7 times, average 0.41 sec, max 0.48 sec, min 0.36 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.82% of total time (compiled    5 times, average 0.50 sec, max 0.58 sec, min 0.42 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.71% of total time (compiled    8 times, average 0.27 sec, max 0.33 sec, min 0.24 sec)
+[2023.04.02-21.35.24:452][820]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.36.10:915][182]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.02-21.37.00:851][421]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2023.04.02-21.37.01:055][421]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.04.02-21.37.01:056][421]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.04.02-21.37.01:056][421]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_0
+[2023.04.02-21.37.01:560][453]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.04.02-21.37.01:560][453]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.04.02-21.37.01:562][453]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_1
+[2023.04.02-21.37.53:399][871]Cmd: TRANSACTION UNDO
+[2023.04.02-21.37.53:399][871]LogEditorTransaction: Undo Move Elements
+[2023.04.02-21.38.16:652][308]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound needed to have new flag set bUsedWithNanite !
+[2023.04.02-21.38.16:726][310]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2023.04.02-21.38.16:726][310]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2023.04.02-21.38.16:726][310]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_2
+[2023.04.02-21.38.17:463][374]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2023.04.02-21.38.17:463][374]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2023.04.02-21.38.17:466][374]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_TableRound.SM_TableRound as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_3
+[2023.04.02-21.38.41:823][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2023.04.02-21.38.41:824][351]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2023.04.02-21.38.41:824][351]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_4
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Total job queries 257, among them cache hits 17 (6.61%)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Tracking 236 distinct input hashes that result in 191 distinct outputs (80.93%)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: RAM used: 2.07 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.06%
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Shaders Compiled: 159
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Jobs assigned 163, completed 159 (97.55%)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Average time worker was idle: 993.07 s
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.56 s
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Job execution time: average 1.76 s, max 3.93 s
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Job life time (pending + execution): average 1.81 s, max 4.00
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 18.08 s
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Jobs were issued in 112 batches (only local compilation was used), average 1.46 jobs/batch
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Average processing rate: 8.79 jobs/sec
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Total thread time: 106.29 s
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Total thread preprocess time: 4.80 s
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Percentage time preprocessing: 4.52%
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Effective parallelization: 5.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 1.20 sec, max 1.83 sec, min 0.60 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 1.17 sec, max 1.73 sec, min 0.55 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    4 times, average 1.14 sec, max 1.75 sec, min 0.56 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    4 times, average 1.12 sec, max 1.60 sec, min 0.61 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 1.11 sec, max 1.53 sec, min 0.70 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.10% of total time (compiled   21 times, average 0.61 sec, max 1.59 sec, min 0.40 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.81% of total time (compiled   21 times, average 0.50 sec, max 0.68 sec, min 0.37 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.16% of total time (compiled   11 times, average 0.69 sec, max 1.53 sec, min 0.42 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.51% of total time (compiled    4 times, average 1.20 sec, max 1.83 sec, min 0.60 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight - 4.40% of total time (compiled    4 times, average 1.17 sec, max 1.73 sec, min 0.55 sec)
+[2023.04.02-21.38.42:305][398]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.38.42:773][441]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2023.04.02-21.38.42:773][441]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2023.04.02-21.38.42:774][441]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_5
+[2023.04.02-21.39.15:135][858]Cmd: MODE GRID=1
+[2023.04.02-21.39.19:443][330]Cmd: MODE GRID=0
+[2023.04.02-21.39.30:486][436]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.04.02-21.39.30:486][436]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.04.02-21.39.31:182][505]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.04.02-21.39.31:182][505]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Total job queries 282, among them cache hits 27 (9.57%)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Tracking 251 distinct input hashes that result in 204 distinct outputs (81.27%)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: RAM used: 2.15 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.07%
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Shaders Compiled: 174
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Jobs assigned 178, completed 174 (97.75%)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Average time worker was idle: 875.82 s
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.56 s
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Job execution time: average 1.66 s, max 3.93 s
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Job life time (pending + execution): average 1.71 s, max 4.00
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 19.51 s
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Jobs were issued in 127 batches (only local compilation was used), average 1.40 jobs/batch
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Average processing rate: 8.92 jobs/sec
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Total thread time: 110.82 s
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Total thread preprocess time: 5.11 s
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Percentage time preprocessing: 4.61%
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Effective parallelization: 5.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 1.20 sec, max 1.83 sec, min 0.60 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 1.17 sec, max 1.73 sec, min 0.55 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    4 times, average 1.14 sec, max 1.75 sec, min 0.56 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    4 times, average 1.12 sec, max 1.60 sec, min 0.61 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 1.11 sec, max 1.53 sec, min 0.70 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.74% of total time (compiled   24 times, average 0.59 sec, max 1.59 sec, min 0.39 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.44% of total time (compiled   24 times, average 0.48 sec, max 0.68 sec, min 0.33 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.31% of total time (compiled   12 times, average 0.68 sec, max 1.53 sec, min 0.42 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.54% of total time (compiled   12 times, average 0.42 sec, max 0.53 sec, min 0.35 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.32% of total time (compiled    4 times, average 1.20 sec, max 1.83 sec, min 0.60 sec)
+[2023.04.02-21.41.42:811][206]LogShaderCompilers: Display: ================================================
+[2023.04.02-21.41.46:692][661]Cmd: MODE GRID=1
+[2023.04.02-21.42.04:884][797]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.10:881][423]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.15:558][981]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.17:128][169]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.17:680][235]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.18:200][297]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.20:325][542]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.30:500][151]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.41:371][440]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.44:623][825]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.49:598][331]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.54:979][818]LogEditorViewport: Clicking Background
+[2023.04.02-21.42.59:154][291]LogEditorViewport: Clicking Background
+[2023.04.02-21.43.09:159][490]Cmd: MODE GRID=0
+[2023.04.02-21.43.19:504][518]LogEditorViewport: Clicking Background
+[2023.04.02-21.43.20:256][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.04.02-21.43.20:261][604]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.02-21.43.20:283][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.02-21.43.20:293][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.02-21.43.20:321][604]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.02-21.43.20:321][604]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel7146B3EA4C591209132847AFC90E8D9F.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.02-21.43.20:329][604]LogFileHelpers: Saving map 'DemoLevel' took 0.047
+[2023.04.02-21.43.20:349][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Materials/M_Chair" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Materials/M_Chair.uasset" SILENT=true
+[2023.04.02-21.43.20:352][604]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_Chair
+[2023.04.02-21.43.20:352][604]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/M_Chair3850328C4B1557DA02476F8D6473C01F.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2023.04.02-21.43.20:362][604]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Materials/M_TableRound
+[2023.04.02-21.43.20:362][604]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/M_TableRound3542F6DC44A888E0582E78A0A8D0E820.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Materials/M_TableRound.uasset'
+[2023.04.02-21.43.20:368][604]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 28.6 sec)
+[2023.04.02-21.43.20:372][604]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.02-21.43.20:372][604]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.02-21.43.20:372][604]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair
+[2023.04.02-21.43.20:372][604]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound
