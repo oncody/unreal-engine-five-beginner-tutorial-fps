@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap",
 				"D:/Code/unreal-engine-five-beginner-tutorial-fps/FpsBeginnerTutorial/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
 			]
 		}
