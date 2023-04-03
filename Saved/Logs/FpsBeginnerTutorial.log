@@ -1048,3 +1048,186 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.03-02.00.32:360][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2023.04.03-02.00.32:515][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.04.03-02.00.35:371][ 14]LogViewport: Scene viewport resized to 2021x743, mode Windowed.
+[2023.04.03-02.01.02:380][730]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.03-02.01.02:380][730]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.03-02.01.02:380][730]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.03-02.01.04:929][730]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.04.03-02.01.04:938][730]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.04.03-02.01.04:942][730]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.04.03-02.01.04:954][731]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.04.03-02.01.08:864][185]LogContentBrowser: Attempting asset rename: NewBlueprint -> Platform
+[2023.04.03-02.01.08:870][185]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.04.03-02.01.10:190][328]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.01.10:190][328]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-02.01.11:095][328]LogViewport: Scene viewport resized to 1525x974, mode Windowed.
+[2023.04.03-02.01.11:927][377]LogViewport: Scene viewport resized to 1523x993, mode Windowed.
+[2023.04.03-02.01.11:972][379]LogViewport: Scene viewport resized to 794x465, mode Windowed.
+[2023.04.03-02.01.12:006][380]LogViewport: Scene viewport resized to 485x241, mode Windowed.
+[2023.04.03-02.01.12:028][381]LogViewport: Scene viewport resized to 467x227, mode Windowed.
+[2023.04.03-02.01.12:420][427]LogViewport: Scene viewport resized to 1525x974, mode Windowed.
+[2023.04.03-02.01.13:089][505]LogSlate: Window 'Platform' being destroyed
+[2023.04.03-02.01.31:176][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.01.31:196][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Platform" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset" SILENT=true
+[2023.04.03-02.01.31:202][640]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.006167 seconds
+[2023.04.03-02.01.31:204][640]LogSerialization: UsePackageTrailer: 'true'
+[2023.04.03-02.01.31:204][640]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Platform
+[2023.04.03-02.01.31:204][640]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/PlatformE3AAC293471D8172649FDB817C9A72CE.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset'
+[2023.04.03-02.01.31:211][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms
+[2023.04.03-02.01.31:215][640]AssetCheck: New page: Asset Save: Platform
+[2023.04.03-02.01.31:215][640]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.02.19:549][ 71]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.03-02.02.27:084][965]LogStaticMesh: Display: Building static mesh Shape_Cylinder...
+[2023.04.03-02.02.27:090][965]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder
+[2023.04.03-02.02.32:479][249]LogDerivedDataCache: C:/Users/oncod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.097 and deleted 0 files with total size 0 MiB. Scanned 6503 files in 6365 folders with total size 192 MiB.
+[2023.04.03-02.02.46:897][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.04.03-02.02.46:900][937]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.02.46:926][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Platform" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset" SILENT=true
+[2023.04.03-02.02.46:929][937]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Platform
+[2023.04.03-02.02.46:929][937]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Platform14FC9F754694870B41E51895BDE28C14.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset'
+[2023.04.03-02.02.46:934][937]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 69 ms)
+[2023.04.03-02.02.46:941][937]AssetCheck: New page: Asset Save: Platform
+[2023.04.03-02.02.46:941][937]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.02.47:944][ 56]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.03-02.03.01:167][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.03.01:226][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Platform" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset" SILENT=true
+[2023.04.03-02.03.01:230][599]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Platform
+[2023.04.03-02.03.01:230][599]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Platform834B27B1459E78907FC7ACBA2BCE62B6.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset'
+[2023.04.03-02.03.01:234][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 137 ms)
+[2023.04.03-02.03.01:241][599]AssetCheck: New page: Asset Save: Platform
+[2023.04.03-02.03.01:241][599]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.04.29:430][541]BlueprintLog: New page: Compile Platform
+[2023.04.03-02.04.29:476][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.04.03-02.04.31:905][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.04.03-02.04.31:909][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.04.31:966][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Platform" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset" SILENT=true
+[2023.04.03-02.04.31:970][825]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Platform
+[2023.04.03-02.04.31:970][825]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/PlatformD85209204A73D2E8E69D928B182675BB.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset'
+[2023.04.03-02.04.31:974][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 201 ms)
+[2023.04.03-02.04.31:981][825]AssetCheck: New page: Asset Save: Platform
+[2023.04.03-02.04.31:981][825]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.05.11:303][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.05.11:326][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Platform" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset" SILENT=true
+[2023.04.03-02.05.11:328][541]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Platform
+[2023.04.03-02.05.11:329][541]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Platform47BB9AC0470B1DB95306D9A1ED37AFA9.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset'
+[2023.04.03-02.05.11:333][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 232 ms)
+[2023.04.03-02.05.11:341][541]AssetCheck: New page: Asset Save: Platform
+[2023.04.03-02.05.11:341][541]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.07.55:230][984]BlueprintLog: New page: Compile Platform
+[2023.04.03-02.07.55:275][984]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.04.03-02.07.55:695][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.04.03-02.07.55:698][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.07.55:759][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Platform" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset" SILENT=true
+[2023.04.03-02.07.55:762][ 26]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/Platform
+[2023.04.03-02.07.55:762][ 26]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Platform3A0FB04D4145D7F867944F80CD77B9BD.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset'
+[2023.04.03-02.07.55:767][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 302 ms)
+[2023.04.03-02.07.55:774][ 26]AssetCheck: New page: Asset Save: Platform
+[2023.04.03-02.07.55:774][ 26]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/Platform.Platform
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: ================================================
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: Total job queries 127, among them cache hits 12 (9.45%)
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: Tracking 115 distinct input hashes that result in 93 distinct outputs (80.87%)
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: RAM used: 1.01 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.03-02.07.59:655][464]LogShaderCompilers: Display: ================================================
+[2023.04.03-02.08.04:786][ 40]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/Platform.Platform_C
+[2023.04.03-02.08.04:786][ 40]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/Platform.Platform_C
+[2023.04.03-02.08.04:787][ 40]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/Platform.Platform as actor: Platform_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Platform_C_0
+[2023.04.03-02.08.04:788][ 40]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/Platform.Platform as actor: Platform_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Platform_C_0
+[2023.04.03-02.08.04:795][ 41]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.04.03-02.08.05:538][127]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/Platform.Platform_C
+[2023.04.03-02.08.05:538][127]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/Platform.Platform_C
+[2023.04.03-02.08.05:541][127]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/Platform.Platform as actor: Platform_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Platform_C_1
+[2023.04.03-02.08.05:542][127]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/Platform.Platform as actor: Platform_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.Platform_C_1
+[2023.04.03-02.09.15:261][953]LogEditorViewport: Clicking Background
+[2023.04.03-02.09.20:897][577]LogClass: Warning: Short type name "Platform_C_1" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.04.03-02.09.20:902][577]LogClass: Warning: Short type name "Platform_C_1" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.04.03-02.09.23:042][785]LogEditorViewport: Clicking Background
+[2023.04.03-02.09.44:058][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.04.03-02.09.44:068][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-02.09.44:083][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.03-02.09.44:111][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.04.03-02.09.44:131][798]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.03-02.09.44:131][798]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel8D596A364DD04A40B46F048959DD9C52.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.03-02.09.44:137][798]LogFileHelpers: Saving map 'DemoLevel' took 0.054
+[2023.04.03-02.09.44:149][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 382 ms)
+[2023.04.03-02.09.44:154][798]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.03-02.09.44:154][798]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.03-02.09.52:582][725]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.03-02.09.52:590][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.03-02.09.52:590][725]PIE: New page: PIE session: DemoLevel (Apr 2, 2023, 2:09:52 PM)
+[2023.04.03-02.09.52:593][725]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.04.03-02.09.52:594][725]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.04.03-02.09.52:594][725]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-02.09.52:614][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021451s)
+[2023.04.03-02.09.52:614][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.021493s)
+[2023.04.03-02.09.52:614][725]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-02.09.52:615][725]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.03-02.09.52:615][725]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2023.04.03-02.09.52:644][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.04.03-02.09.52:646][725]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.03-02.09.52:646][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.03-02.09.52:646][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.03-02.09.52:647][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.03-02.09.52:647][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.03-02.09.52:647][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.03-02.09.52:648][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.03-02.09.52:664][725]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Cody’s AirPods Max)
+[2023.04.03-02.09.52:664][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.03-02.09.52:664][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.03-02.09.52:664][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.03-02.09.52:665][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.04.03-02.09.52:665][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.04.03-02.09.52:666][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.04.03-02.09.52:666][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.04.03-02.09.52:666][725]LogInit: FAudioDevice initialized.
+[2023.04.03-02.09.52:666][725]LogAudio: Display: Audio Device (ID: 2) registered with world 'DemoLevel'.
+[2023.04.03-02.09.52:670][725]LogLoad: Game class is 'GameModeBase'
+[2023.04.03-02.09.52:671][725]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.02-20.09.52
+[2023.04.03-02.09.52:672][725]LogWorld: Bringing up level for play took: 0.002044
+[2023.04.03-02.09.52:673][725]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.04.03-02.09.52:684][725]PIE: Server logged in
+[2023.04.03-02.09.52:684][725]PIE: Play in editor total start time 0.098 seconds.
+[2023.04.03-02.10.09:267][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-02.10.09:267][509]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-02.10.09:267][509]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.03-02.10.09:267][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-02.10.09:271][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.03-02.10.09:277][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-02.10.09:311][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-02.10.09:311][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.04.03-02.10.09:313][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.04.03-02.10.09:352][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.04.03-02.10.09:376][510]LogPlayLevel: Display: Destroying online subsystem :Context_5
