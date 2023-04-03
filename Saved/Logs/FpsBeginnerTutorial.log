@@ -1231,3 +1231,314 @@ UnknownFunction []
 [2023.04.03-02.10.09:313][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2023.04.03-02.10.09:352][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
 [2023.04.03-02.10.09:376][510]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.04.03-02.14.20:935][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.04.03-02.14.29:525][629]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-02.14.29:579][629]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-02.14.29:913][630]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=21.94
+[2023.04.03-02.14.29:913][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-02.14.29:915][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-02.14.38:485][656]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.04.03-02.14.38:582][656]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-02.14.38:915][657]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ab566a5-6ee3-43fb-bf7d-b8cadd493c23}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=44.48
+[2023.04.03-02.14.38:915][657]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-02.14.38:916][657]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B613E032B-4AF8-F2F0-D9A5-3EB158C7847A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: libcurl info message cache 0 (Too old connection (54420 seconds idle), disconnect it)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: libcurl info message cache 2 (Closing connection 0)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: 00000AE307169B00: libcurl info message cache 5 (Closing connection 1)
+[2023.04.03-17.21.30:694][666]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B613E032B-4AF8-F2F0-D9A5-3EB158C7847A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.04.03-17.21.33:186][670]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-17.21.33:664][670]LogViewport: Scene viewport resized to 2021x771, mode Windowed.
+[2023.04.03-17.21.34:273][670]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-17.21.34:694][671]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=77.75
+[2023.04.03-17.21.34:694][671]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-17.21.34:695][671]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-17.21.50:237][718]LogViewport: Scene viewport resized to 2021x743, mode Windowed.
+[2023.04.03-17.21.59:690][649]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.04.03-17.21.59:691][649]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-17.21.59:752][656]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ab566a5-6ee3-43fb-bf7d-b8cadd493c23}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=59.35
+[2023.04.03-17.21.59:752][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-17.21.59:753][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-17.21.59:787][660]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-17.21.59:795][661]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-17.21.59:837][666]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=37.97
+[2023.04.03-17.21.59:838][666]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-17.21.59:839][666]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-17.21.59:981][683]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Cody’s AirPods Max), InstanceID=1
+[2023.04.03-17.21.59:989][684]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-17.22.00:024][688]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{835691b9-0476-456e-878f-a66d3c1529ed}, Name=Headphones (Cody’s AirPods Max)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=32.07
+[2023.04.03-17.22.00:024][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-17.22.00:025][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-17.23.00:610][745]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.04.03-17.23.00:615][745]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.04.03-17.23.00:620][745]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.04.03-17.23.00:629][746]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.04.03-17.23.05:633][343]LogContentBrowser: Attempting asset rename: NewBlueprint -> EnemySphere
+[2023.04.03-17.23.05:638][343]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.04.03-17.23.07:163][502]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere
+[2023.04.03-17.23.07:163][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-17.23.07:611][502]LogViewport: Scene viewport resized to 1525x974, mode Windowed.
+[2023.04.03-17.23.08:876][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.04.03-17.23.08:879][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.23.08:904][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/EnemySphere" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset" SILENT=true
+[2023.04.03-17.23.08:905][644]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/EnemySphere
+[2023.04.03-17.23.08:905][644]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EnemySphere0B678DE24DAC45167DD319A9BF7EF2A0.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset'
+[2023.04.03-17.23.08:910][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 412 ms)
+[2023.04.03-17.23.08:917][644]AssetCheck: New page: Asset Save: EnemySphere
+[2023.04.03-17.23.08:917][644]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere
+[2023.04.03-17.23.32:602][318]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Shapes/Shape_Sphere) ...
+[2023.04.03-17.23.37:605][599]Cmd: MODE GRID=1
+[2023.04.03-17.24.01:493][837]Cmd: MODE GRID=0
+[2023.04.03-17.24.03:228][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.03-17.24.03:232][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.24.03:256][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/EnemySphere" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset" SILENT=true
+[2023.04.03-17.24.03:259][ 40]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/EnemySphere
+[2023.04.03-17.24.03:259][ 40]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EnemySphere38F72C024D841AB0ECE5749FD0D7F079.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset'
+[2023.04.03-17.24.03:264][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 445 ms)
+[2023.04.03-17.24.03:271][ 40]AssetCheck: New page: Asset Save: EnemySphere
+[2023.04.03-17.24.03:271][ 40]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere
+[2023.04.03-17.25.00:237][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.04.03-17.25.00:240][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.25.00:272][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/EnemySphere" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset" SILENT=true
+[2023.04.03-17.25.00:274][210]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/EnemySphere
+[2023.04.03-17.25.00:274][210]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EnemySphereA24CA85446DD47753E0898BB63F9460C.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset'
+[2023.04.03-17.25.00:280][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 484 ms)
+[2023.04.03-17.25.00:287][210]AssetCheck: New page: Asset Save: EnemySphere
+[2023.04.03-17.25.00:287][210]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere
+[2023.04.03-17.27.08:977][135]BlueprintLog: New page: Compile EnemySphere
+[2023.04.03-17.27.09:028][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.04.03-17.27.09:460][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.04.03-17.27.09:463][179]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.27.09:515][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/EnemySphere" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset" SILENT=true
+[2023.04.03-17.27.09:520][179]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/EnemySphere
+[2023.04.03-17.27.09:520][179]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EnemySphere29D94B6A4EC2FBC03FDF85AE6EC98531.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset'
+[2023.04.03-17.27.09:526][179]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 547 ms)
+[2023.04.03-17.27.09:533][179]AssetCheck: New page: Asset Save: EnemySphere
+[2023.04.03-17.27.09:533][179]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere
+[2023.04.03-17.27.15:082][649]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.15:082][649]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.15:083][649]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_0
+[2023.04.03-17.27.15:084][649]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_0
+[2023.04.03-17.27.15:370][677]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.15:370][677]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.15:374][677]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_1
+[2023.04.03-17.27.15:375][677]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_1
+[2023.04.03-17.27.29:172][903]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.29:172][903]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.29:172][903]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_2
+[2023.04.03-17.27.29:174][903]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_2
+[2023.04.03-17.27.29:444][922]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.29:444][922]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.27.29:450][922]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_3
+[2023.04.03-17.27.29:452][922]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_3
+[2023.04.03-17.27.57:015][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.03-17.27.57:022][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.03-17.27.57:022][222]PIE: New page: PIE session: DemoLevel (Apr 3, 2023, 5:27:57 AM)
+[2023.04.03-17.27.57:022][222]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-17.27.57:042][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020322s)
+[2023.04.03-17.27.57:042][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.020351s)
+[2023.04.03-17.27.57:042][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-17.27.57:043][222]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.03-17.27.57:043][222]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2023.04.03-17.27.57:076][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.04.03-17.27.57:080][222]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.03-17.27.57:080][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.03-17.27.57:080][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.03-17.27.57:080][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.03-17.27.57:080][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.03-17.27.57:080][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.03-17.27.57:082][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.03-17.27.57:098][222]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Cody’s AirPods Max)
+[2023.04.03-17.27.57:098][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.03-17.27.57:098][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.03-17.27.57:098][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.03-17.27.57:099][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.04.03-17.27.57:099][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.04.03-17.27.57:100][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.04.03-17.27.57:100][222]LogInit: FAudioDevice initialized.
+[2023.04.03-17.27.57:100][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.04.03-17.27.57:100][222]LogAudio: Display: Audio Device (ID: 3) registered with world 'DemoLevel'.
+[2023.04.03-17.27.57:103][222]LogLoad: Game class is 'GameModeBase'
+[2023.04.03-17.27.57:105][222]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.03-11.27.57
+[2023.04.03-17.27.57:106][222]LogWorld: Bringing up level for play took: 0.002457
+[2023.04.03-17.27.57:107][222]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.04.03-17.27.57:108][222]PIE: Server logged in
+[2023.04.03-17.27.57:109][222]PIE: Play in editor total start time 0.09 seconds.
+[2023.04.03-17.27.58:784][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-17.27.58:784][368]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-17.27.58:784][368]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.03-17.27.58:784][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-17.27.58:790][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.03-17.27.58:796][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-17.27.58:826][368]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.03-17.27.58:826][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.03-17.27.58:828][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.03-17.27.58:830][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-17.27.58:833][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.04.03-17.27.58:857][369]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.04.03-17.28.09:506][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.03-17.28.09:506][546]PIE: New page: PIE session: DemoLevel (Apr 3, 2023, 5:28:09 AM)
+[2023.04.03-17.28.09:506][546]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-17.28.09:527][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020452s)
+[2023.04.03-17.28.09:527][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.020481s)
+[2023.04.03-17.28.09:527][546]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-17.28.09:528][546]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.03-17.28.09:528][546]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2023.04.03-17.28.09:562][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.04.03-17.28.09:565][546]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.03-17.28.09:565][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.03-17.28.09:565][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.03-17.28.09:565][546]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.03-17.28.09:565][546]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.03-17.28.09:565][546]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.03-17.28.09:567][546]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.03-17.28.09:582][546]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Cody’s AirPods Max)
+[2023.04.03-17.28.09:582][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.03-17.28.09:582][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.03-17.28.09:582][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.03-17.28.09:584][546]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.04.03-17.28.09:584][546]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.04.03-17.28.09:584][546]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.04.03-17.28.09:584][546]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.04.03-17.28.09:584][546]LogInit: FAudioDevice initialized.
+[2023.04.03-17.28.09:584][546]LogAudio: Display: Audio Device (ID: 4) registered with world 'DemoLevel'.
+[2023.04.03-17.28.09:587][546]LogLoad: Game class is 'GameModeBase'
+[2023.04.03-17.28.09:588][546]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.03-11.28.09
+[2023.04.03-17.28.09:589][546]LogWorld: Bringing up level for play took: 0.001930
+[2023.04.03-17.28.09:590][546]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.04.03-17.28.09:591][546]PIE: Server logged in
+[2023.04.03-17.28.09:591][546]PIE: Play in editor total start time 0.085 seconds.
+[2023.04.03-17.28.27:784][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-17.28.27:784][448]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-17.28.27:784][448]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.03-17.28.27:784][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-17.28.27:790][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.03-17.28.27:796][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-17.28.27:829][448]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.03-17.28.27:829][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.03-17.28.27:830][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.03-17.28.27:833][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-17.28.27:835][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.04.03-17.28.27:859][449]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.04.03-17.28.37:080][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.04.03-17.28.37:083][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.28.37:108][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.03-17.28.37:138][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.04.03-17.28.37:158][494]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.03-17.28.37:158][494]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel3A3A70F44ACA330F2FF44AAD738F0DB0.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.03-17.28.37:164][494]LogFileHelpers: Saving map 'DemoLevel' took 0.056
+[2023.04.03-17.28.37:164][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/EnemySphere" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset" SILENT=true
+[2023.04.03-17.28.37:167][494]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/EnemySphere
+[2023.04.03-17.28.37:167][494]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EnemySphere3790069742373AD4ADCABE9563AD4C63.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset'
+[2023.04.03-17.28.37:173][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 637 ms)
+[2023.04.03-17.28.37:180][494]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.03-17.28.37:180][494]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.03-17.28.37:180][494]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere
+[2023.04.03-17.28.39:495][738]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.03-17.28.39:498][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.03-17.28.39:498][738]PIE: New page: PIE session: DemoLevel (Apr 3, 2023, 5:28:39 AM)
+[2023.04.03-17.28.39:499][738]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-17.28.39:518][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020247s)
+[2023.04.03-17.28.39:518][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.020274s)
+[2023.04.03-17.28.39:518][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-17.28.39:519][738]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.03-17.28.39:519][738]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2023.04.03-17.28.39:551][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.03-17.28.39:554][738]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.03-17.28.39:554][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.03-17.28.39:554][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.03-17.28.39:554][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.03-17.28.39:554][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.03-17.28.39:554][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.03-17.28.39:555][738]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.03-17.28.39:571][738]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Cody’s AirPods Max)
+[2023.04.03-17.28.39:571][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.03-17.28.39:571][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.03-17.28.39:571][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.03-17.28.39:572][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.04.03-17.28.39:572][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.04.03-17.28.39:573][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.04.03-17.28.39:573][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.04.03-17.28.39:573][738]LogInit: FAudioDevice initialized.
+[2023.04.03-17.28.39:573][738]LogAudio: Display: Audio Device (ID: 5) registered with world 'DemoLevel'.
+[2023.04.03-17.28.39:576][738]LogLoad: Game class is 'GameModeBase'
+[2023.04.03-17.28.39:577][738]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.03-11.28.39
+[2023.04.03-17.28.39:578][738]LogWorld: Bringing up level for play took: 0.001866
+[2023.04.03-17.28.39:579][738]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.04.03-17.28.39:580][738]PIE: Server logged in
+[2023.04.03-17.28.39:580][738]PIE: Play in editor total start time 0.082 seconds.
+[2023.04.03-17.28.55:824][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-17.28.55:824][476]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.03-17.28.55:824][476]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.03-17.28.55:825][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-17.28.55:834][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.03-17.28.55:839][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.03-17.28.55:870][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.03-17.28.55:870][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.04.03-17.28.55:871][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.04.03-17.28.55:877][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.03-17.28.55:919][478]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.04.03-17.29.45:062][ 58]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.29.45:062][ 58]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.29.45:063][ 58]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_4
+[2023.04.03-17.29.45:064][ 58]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_4
+[2023.04.03-17.29.46:480][187]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.29.46:480][187]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.29.46:484][187]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_5
+[2023.04.03-17.29.46:485][187]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_5
+[2023.04.03-17.29.59:575][585]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.29.59:575][585]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.29.59:577][585]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_6
+[2023.04.03-17.29.59:579][585]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_6
+[2023.04.03-17.30.00:456][662]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.00:456][662]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.00:460][662]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_7
+[2023.04.03-17.30.00:461][662]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_7
+[2023.04.03-17.30.10:985][802]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.10:985][802]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.10:987][802]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_8
+[2023.04.03-17.30.10:988][802]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_8
+[2023.04.03-17.30.12:216][910]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.12:216][910]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.12:219][910]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_9
+[2023.04.03-17.30.12:221][910]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_9
+[2023.04.03-17.30.18:109][540]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.18:109][540]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.18:110][540]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_10
+[2023.04.03-17.30.18:112][540]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_10
+[2023.04.03-17.30.19:255][637]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.19:255][637]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Props/EnemySphere.EnemySphere_C
+[2023.04.03-17.30.19:259][637]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_11
+[2023.04.03-17.30.19:261][637]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Props/EnemySphere.EnemySphere as actor: EnemySphere_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EnemySphere_C_11
+[2023.04.03-17.30.30:796][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.04.03-17.30.30:801][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.30.30:826][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.03-17.30.30:858][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.04.03-17.30.30:880][750]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.03-17.30.30:880][750]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel292C1C6445BA612DE5B6FEA098C9A617.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.03-17.30.30:885][750]LogFileHelpers: Saving map 'DemoLevel' took 0.059
+[2023.04.03-17.30.30:896][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 732 ms)
+[2023.04.03-17.30.30:904][750]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.03-17.30.30:904][750]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
