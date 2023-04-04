@@ -1542,3 +1542,339 @@ UnknownFunction []
 [2023.04.03-17.30.30:896][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 732 ms)
 [2023.04.03-17.30.30:904][750]AssetCheck: New page: Asset Save: DemoLevel
 [2023.04.03-17.30.30:904][750]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.03-17.31.24:844][764]LogViewport: Scene viewport resized to 1724x743, mode Windowed.
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: ================================================
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: Total job queries 151, among them cache hits 24 (15.89%)
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: Tracking 127 distinct input hashes that result in 101 distinct outputs (79.53%)
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: RAM used: 1.09 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.03%
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.03-17.31.28:613][132]LogShaderCompilers: Display: ================================================
+[2023.04.03-17.31.29:137][174]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.03-17.32.22:024][197]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2023.04.03-17.32.22:024][197]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2023.04.03-17.32.22:024][197]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_0
+[2023.04.03-17.32.23:158][293]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2023.04.03-17.32.23:158][293]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2023.04.03-17.32.23:162][293]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame as actor: StaticMeshActor /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.StaticMeshActor_2
+[2023.04.03-17.32.55:374][636]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2023.04.03-17.32.55:374][636]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2023.04.03-17.32.56:156][725]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2023.04.03-17.32.56:156][725]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2023.04.03-17.34.33:805][612]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.03-17.34.33:805][612]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.03-17.34.33:805][612]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.03-17.34.41:317][612]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.04.03-17.34.41:323][612]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.04.03-17.34.41:330][612]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.04.03-17.34.41:339][613]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.04.03-17.34.47:166][273]LogContentBrowser: Attempting asset rename: NewBlueprint -> EndOfLevelDoor
+[2023.04.03-17.34.47:171][273]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.04.03-17.34.48:258][384]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor
+[2023.04.03-17.34.48:259][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.03-17.34.48:620][384]LogViewport: Scene viewport resized to 1525x974, mode Windowed.
+[2023.04.03-17.34.49:869][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.04.03-17.34.49:872][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.34.49:896][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.03-17.34.49:931][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.04.03-17.34.49:954][523]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.03-17.34.49:954][523]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel31922E364511B0852255759396C4F520.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.03-17.34.49:960][523]LogFileHelpers: Saving map 'DemoLevel' took 0.064
+[2023.04.03-17.34.49:960][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/EndOfLevelDoor" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset" SILENT=true
+[2023.04.03-17.34.49:961][523]LogSavePackage: Moving output files for package: /Game/MyContent/EndOfLevelDoor
+[2023.04.03-17.34.49:961][523]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EndOfLevelDoorF0E38276457D1821C9B4B197D9330D43.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset'
+[2023.04.03-17.34.49:968][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 828 ms)
+[2023.04.03-17.34.49:977][523]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.03-17.34.49:977][523]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.03-17.34.49:977][523]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor
+[2023.04.03-17.35.04:235][744]LogStaticMesh: Display: Building static mesh SM_Door...
+[2023.04.03-17.35.04:242][744]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Door.SM_Door
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: ================================================
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Total job queries 171, among them cache hits 26 (15.20%)
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Tracking 138 distinct input hashes that result in 110 distinct outputs (79.71%)
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: RAM used: 1.16 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Shaders Compiled: 7
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Jobs assigned 14, completed 7 (50.00%)
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Average time worker was idle: 161.18 s
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2023.04.03-17.35.04:820][804]LogShaderCompilers: Display: Job execution time: average 0.95 s, max 1.23 s
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Job life time (pending + execution): average 0.99 s, max 1.26
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.81 s
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Average processing rate: 3.86 jobs/sec
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Total thread time: 2.77 s
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Total thread preprocess time: 0.36 s
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Percentage time preprocessing: 12.99%
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Effective parallelization: 1.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 20.41% of total time (compiled    2 times, average 0.28 sec, max 0.29 sec, min 0.27 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 18.89% of total time (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.49% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.86% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.52% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2023.04.03-17.35.04:821][804]LogShaderCompilers: Display: ================================================
+[2023.04.03-17.35.45:455][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.04.03-17.35.45:458][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.03-17.35.45:572][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/EndOfLevelDoor" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset" SILENT=true
+[2023.04.03-17.35.45:575][281]LogSavePackage: Moving output files for package: /Game/MyContent/EndOfLevelDoor
+[2023.04.03-17.35.45:575][281]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EndOfLevelDoorAB472ACD4ADEF8A63756C5BFAFB89FA6.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset'
+[2023.04.03-17.35.45:580][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 950 ms)
+[2023.04.03-17.35.45:588][281]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2023.04.03-17.35.45:588][281]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor
+[2023.04.03-17.44.49:736][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.04.03-17.44.49:738][172]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/DemoLevel' took 0.045
+[2023.04.03-17.44.49:739][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/EndOfLevelDoor] ([2] browsable assets)...
+[2023.04.03-17.44.49:773][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor]
+[2023.04.03-17.44.49:773][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/EndOfLevelDoor]
+[2023.04.03-17.44.49:776][172]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/EndOfLevelDoor_Auto1
+[2023.04.03-17.44.49:776][172]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EndOfLevelDoor_Auto1A763BD044A5AF27F6879E88088F19617.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Autosaves/Game/MyContent/EndOfLevelDoor_Auto1.uasset'
+[2023.04.03-17.44.49:776][172]LogFileHelpers: Auto-saving content packages took 0.038
+[2023.04.03-18.09.18:279][122]LogDerivedDataCache: C:/Users/oncod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.090 and deleted 0 files with total size 0 MiB. Scanned 6529 files in 6390 folders with total size 192 MiB.
+[2023.04.03-18.33.14:240][429]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-18.33.14:441][429]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-18.33.14:776][430]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=23.37
+[2023.04.03-18.33.14:776][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-18.33.14:777][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-18.42.58:914][183]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.04.03-18.42.59:208][183]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-18.42.59:541][184]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ab566a5-6ee3-43fb-bf7d-b8cadd493c23}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=39.56
+[2023.04.03-18.42.59:542][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-18.42.59:543][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B613E032B-4AF8-F2F0-D9A5-3EB158C7847A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: libcurl info message cache 0 (Too old connection (17469 seconds idle), disconnect it)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: libcurl info message cache 1 (Connection 3 seems to be dead)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: libcurl info message cache 2 (Closing connection 3)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: 00000AE3151B0500: libcurl info message cache 5 (Closing connection 4)
+[2023.04.03-23.33.39:720][193]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B613E032B-4AF8-F2F0-D9A5-3EB158C7847A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=02aa833543c595895c2f3d9092579548%7C42ca772cc7b54f65888c59d9795b73c1%7C43fe6f74-e587-45dc-a438-e83b68b3127a&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.04.03-23.33.39:739][193]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-23.33.39:780][193]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-23.33.39:862][194]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88960004: XAUDIO2_E_DEVICE_INVALIDATED (line: 345) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e} Name=LC27G7xT (NVIDIA High Definition Audio))
+[2023.04.03-23.33.39:863][194]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.04.03-23.33.42:142][196]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-23.33.43:261][196]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ab566a5-6ee3-43fb-bf7d-b8cadd493c23}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=38.89
+[2023.04.03-23.33.43:261][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-23.33.43:262][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-23.33.43:706][197]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-23.33.44:039][198]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dad6cd24-ac41-49aa-ba96-f640e334596e}, Name=LC27G7xT (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=49.06
+[2023.04.03-23.33.44:039][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-23.33.44:040][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-23.35.39:649][545]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.04.03-23.35.39:716][545]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-23.35.39:736][546]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LC27G7xT (NVIDIA High Definition Audio), InstanceID=1
+[2023.04.03-23.35.39:963][546]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Cody’s AirPods Max), InstanceID=1
+[2023.04.03-23.35.40:051][546]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5ab566a5-6ee3-43fb-bf7d-b8cadd493c23}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=52.37
+[2023.04.03-23.35.40:051][546]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-23.35.40:052][546]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-23.35.40:382][547]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15632
+[2023.04.03-23.35.40:718][548]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{835691b9-0476-456e-878f-a66d3c1529ed}, Name=Headphones (Cody’s AirPods Max)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=31.05
+[2023.04.03-23.35.40:719][548]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.03-23.35.40:720][548]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.03-23.59.51:738][901]LogDerivedDataCache: C:/Users/oncod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.074 and deleted 0 files with total size 0 MiB. Scanned 6529 files in 6390 folders with total size 192 MiB.
+[2023.04.04-00.59.51:735][890]LogDerivedDataCache: C:/Users/oncod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.070 and deleted 0 files with total size 0 MiB. Scanned 6529 files in 6390 folders with total size 192 MiB.
+[2023.04.04-01.59.51:762][688]LogDerivedDataCache: C:/Users/oncod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.097 and deleted 0 files with total size 0 MiB. Scanned 6529 files in 6390 folders with total size 192 MiB.
+[2023.04.04-02.59.51:736][487]LogDerivedDataCache: C:/Users/oncod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.069 and deleted 0 files with total size 0 MiB. Scanned 6529 files in 6390 folders with total size 192 MiB.
+[2023.04.04-03.12.17:181][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.04.04-03.12.17:184][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.04-03.12.17:242][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/EndOfLevelDoor" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset" SILENT=true
+[2023.04.04-03.12.17:245][736]LogSavePackage: Moving output files for package: /Game/MyContent/EndOfLevelDoor
+[2023.04.04-03.12.17:246][736]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EndOfLevelDoorE08A23CF4A3DEF0EE16CB892071C9D75.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset'
+[2023.04.04-03.12.17:251][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 1.01 sec)
+[2023.04.04-03.12.17:258][736]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2023.04.04-03.12.17:258][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor
+[2023.04.04-03.12.35:718][701]LogSlate: Took 0.003326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.04.04-03.13.59:661][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.04.04-03.13.59:662][154]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/DemoLevel' took 0.043
+[2023.04.04-03.13.59:663][154]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/EndOfLevelDoor] ([2] browsable assets)...
+[2023.04.04-03.13.59:697][154]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor]
+[2023.04.04-03.13.59:697][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/EndOfLevelDoor]
+[2023.04.04-03.13.59:700][154]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/EndOfLevelDoor_Auto2
+[2023.04.04-03.13.59:700][154]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EndOfLevelDoor_Auto23F9612CB4409D8783F2707A54FB73489.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Autosaves/Game/MyContent/EndOfLevelDoor_Auto2.uasset'
+[2023.04.04-03.13.59:700][154]LogFileHelpers: Auto-saving content packages took 0.038
+[2023.04.04-03.18.10:703][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.04.04-03.18.10:707][397]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.04-03.18.10:762][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/EndOfLevelDoor" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset" SILENT=true
+[2023.04.04-03.18.10:765][397]LogSavePackage: Moving output files for package: /Game/MyContent/EndOfLevelDoor
+[2023.04.04-03.18.10:765][397]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/EndOfLevelDoor57A5B16145BF51C45B169AB2944491D5.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset'
+[2023.04.04-03.18.10:771][397]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.08 sec)
+[2023.04.04-03.18.10:778][397]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2023.04.04-03.18.10:778][397]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor
+[2023.04.04-03.18.15:868][715]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor_C
+[2023.04.04-03.18.15:868][715]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor_C
+[2023.04.04-03.18.15:869][715]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor as actor: EndOfLevelDoor_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EndOfLevelDoor_C_0
+[2023.04.04-03.18.15:870][715]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor as actor: EndOfLevelDoor_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EndOfLevelDoor_C_0
+[2023.04.04-03.18.16:351][756]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor_C
+[2023.04.04-03.18.16:351][756]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor_C
+[2023.04.04-03.18.16:355][756]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor as actor: EndOfLevelDoor_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EndOfLevelDoor_C_1
+[2023.04.04-03.18.16:355][756]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/EndOfLevelDoor.EndOfLevelDoor as actor: EndOfLevelDoor_C /Game/MyContent/DemoLevel.DemoLevel:PersistentLevel.EndOfLevelDoor_C_1
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: ================================================
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Total job queries 178, among them cache hits 28 (15.73%)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Tracking 146 distinct input hashes that result in 116 distinct outputs (79.45%)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: RAM used: 1.23 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Shaders Compiled: 15
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Jobs assigned 19, completed 15 (78.95%)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Average time worker was idle: 17576.12 s
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.09 s
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Job execution time: average 0.85 s, max 1.23 s
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Job life time (pending + execution): average 0.91 s, max 1.26
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.33 s
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Average processing rate: 4.51 jobs/sec
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Total thread time: 6.81 s
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Total thread preprocess time: 0.75 s
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Percentage time preprocessing: 10.99%
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Effective parallelization: 2.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.61 sec, max 0.70 sec, min 0.52 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.60 sec, max 0.76 sec, min 0.51 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.47 sec, max 0.51 sec, min 0.44 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.40 sec, max 0.40 sec, min 0.39 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.53% of total time (compiled    3 times, average 0.60 sec, max 0.76 sec, min 0.51 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.82% of total time (compiled    3 times, average 0.47 sec, max 0.51 sec, min 0.44 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.97% of total time (compiled    2 times, average 0.61 sec, max 0.70 sec, min 0.52 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.68% of total time (compiled    2 times, average 0.40 sec, max 0.40 sec, min 0.39 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.29% of total time (compiled    2 times, average 0.28 sec, max 0.29 sec, min 0.27 sec)
+[2023.04.04-03.18.16:900][811]LogShaderCompilers: Display: ================================================
+[2023.04.04-03.18.36:582][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.04-03.18.36:609][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.04-03.18.36:648][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.04.04-03.18.36:672][508]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.04-03.18.36:672][508]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevelD875B21546A1B18FC185AEAC80B1AB2D.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.04-03.18.36:679][508]LogFileHelpers: Saving map 'DemoLevel' took 0.070
+[2023.04.04-03.18.36:684][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 1.18 sec)
+[2023.04.04-03.18.36:691][508]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.04-03.18.36:691][508]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.04-03.18.37:651][596]Launching UnrealBuildTool... [C:/Program Files/UE_5.1/Engine/Build/BatchFiles/Build.bat -Mode=QueryTargets -Output="C:/Program Files/UE_5.1/Engine/Intermediate/TargetInfo.json"]
+[2023.04.04-03.18.37:767][596]Launching UnrealBuildTool... [C:/Program Files/UE_5.1/Engine/Build/BatchFiles/Build.bat -Mode=QueryTargets -Output="C:/Program Files/UE_5.1/Engine/Intermediate/TargetInfo.json"]
+[2023.04.04-03.18.37:872][596]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2023.04.04-03.18.42:403][ 23]Cmd: SELECT NONE
+[2023.04.04-03.18.46:729][469]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.04-03.18.46:732][469]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.04-03.18.46:733][469]LogPlayLevel: [PlayLevel] Compiling EndOfLevelDoor before play...
+[2023.04.04-03.18.46:799][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.04.04-03.18.46:800][469]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (1 blueprints)
+[2023.04.04-03.18.46:800][469]PIE: New page: PIE session: DemoLevel (Apr 3, 2023, 3:18:46 PM)
+[2023.04.04-03.18.46:800][469]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.04-03.18.46:824][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023592s)
+[2023.04.04-03.18.46:824][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.023622s)
+[2023.04.04-03.18.46:824][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.04-03.18.46:824][469]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.04-03.18.46:824][469]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2023.04.04-03.18.46:862][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.04.04-03.18.46:863][469]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.04-03.18.46:863][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.04-03.18.46:863][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.04-03.18.46:864][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.04-03.18.46:864][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.04-03.18.46:864][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.04-03.18.46:866][469]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.04-03.18.46:883][469]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Cody’s AirPods Max)
+[2023.04.04-03.18.46:883][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.04-03.18.46:883][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.04-03.18.46:883][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.04-03.18.46:884][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.04.04-03.18.46:884][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.04.04-03.18.46:885][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.04.04-03.18.46:885][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.04.04-03.18.46:885][469]LogInit: FAudioDevice initialized.
+[2023.04.04-03.18.46:885][469]LogAudio: Display: Audio Device (ID: 6) registered with world 'DemoLevel'.
+[2023.04.04-03.18.46:887][469]LogLoad: Game class is 'GameModeBase'
+[2023.04.04-03.18.46:890][469]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.03-21.18.46
+[2023.04.04-03.18.46:890][469]LogWorld: Bringing up level for play took: 0.002583
+[2023.04.04-03.18.46:892][469]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.04.04-03.18.46:893][469]PIE: Server logged in
+[2023.04.04-03.18.46:894][469]PIE: Play in editor total start time 0.162 seconds.
+[2023.04.04-03.18.49:098][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-03.18.49:098][684]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.04-03.18.49:098][684]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-03.18.49:098][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-03.18.49:120][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.04-03.18.49:125][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-03.18.49:162][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-03.18.49:162][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.04.04-03.18.49:164][684]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.04.04-03.18.49:172][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.04.04-03.18.49:189][685]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.04.04-03.18.50:167][777]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.04-03.18.50:170][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.04-03.18.50:170][777]PIE: New page: PIE session: DemoLevel (Apr 3, 2023, 3:18:50 PM)
+[2023.04.04-03.18.50:172][777]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.04-03.18.50:194][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022652s)
+[2023.04.04-03.18.50:194][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.022681s)
+[2023.04.04-03.18.50:194][777]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.04-03.18.50:195][777]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.04-03.18.50:195][777]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2023.04.04-03.18.50:233][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.04.04-03.18.50:235][777]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.04-03.18.50:235][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.04-03.18.50:235][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.04-03.18.50:235][777]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.04-03.18.50:235][777]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.04-03.18.50:235][777]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.04-03.18.50:237][777]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.04-03.18.50:252][777]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Cody’s AirPods Max)
+[2023.04.04-03.18.50:252][777]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.04-03.18.50:252][777]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.04-03.18.50:252][777]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.04-03.18.50:254][777]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.04.04-03.18.50:254][777]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.04.04-03.18.50:255][777]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.04.04-03.18.50:255][777]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.04.04-03.18.50:255][777]LogInit: FAudioDevice initialized.
+[2023.04.04-03.18.50:255][777]LogAudio: Display: Audio Device (ID: 7) registered with world 'DemoLevel'.
+[2023.04.04-03.18.50:258][777]LogLoad: Game class is 'GameModeBase'
+[2023.04.04-03.18.50:260][777]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.03-21.18.50
+[2023.04.04-03.18.50:260][777]LogWorld: Bringing up level for play took: 0.002491
+[2023.04.04-03.18.50:261][777]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.04.04-03.18.50:264][777]PIE: Server logged in
+[2023.04.04-03.18.50:264][777]PIE: Play in editor total start time 0.093 seconds.
+[2023.04.04-03.18.51:708][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-03.18.51:708][896]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.04-03.18.51:708][896]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-03.18.51:708][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-03.18.51:712][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.04-03.18.51:718][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-03.18.51:754][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-03.18.51:755][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.04.04-03.18.51:757][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.04.04-03.18.51:761][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.04.04-03.18.51:780][897]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.04.04-03.18.54:798][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.04.04-03.18.54:800][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.04-03.18.54:818][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.04-03.18.54:853][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.04-03.18.54:875][117]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.04-03.18.54:875][117]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevelC34BE07E4C15225582673B98230A35FA.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.04-03.18.54:880][117]LogFileHelpers: Saving map 'DemoLevel' took 0.063
+[2023.04.04-03.18.54:886][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 1.27 sec)
+[2023.04.04-03.18.54:894][117]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.04-03.18.54:894][117]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
