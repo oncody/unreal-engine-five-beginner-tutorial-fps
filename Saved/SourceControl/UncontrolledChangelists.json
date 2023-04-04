@@ -11,6 +11,9 @@
 				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/Platform.uasset",
 				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/StarterContent/Props/EnemySphere.uasset",
 				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/EndOfLevelDoor.uasset",
+				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyGameMode.uasset",
+				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyCharacter.uasset",
+				"D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyPlayerController.uasset",
 				"D:/Code/unreal-engine-five-beginner-tutorial-fps/FpsBeginnerTutorial/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
 			]
 		}
