@@ -1978,3 +1978,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.05-03.34.58:486][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.04.05-03.34.58:489][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
 [2023.04.05-03.34.58:541][778]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.04.05-03.35.17:061][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
