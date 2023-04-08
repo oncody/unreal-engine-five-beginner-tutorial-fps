@@ -1328,3 +1328,189 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.08-02.43.43:146][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2023.04.08-02.43.43:152][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
 [2023.04.08-02.43.43:166][500]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.04.08-02.46.25:550][897]BlueprintLog: New page: Compile MyCharacter
+[2023.04.08-02.46.25:620][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.04.08-02.46.26:151][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.04.08-02.46.26:156][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.08-02.46.26:181][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.08-02.46.26:221][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.04.08-02.46.26:249][942]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.08-02.46.26:249][942]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevel088D0B3D422798527B51DA857F977FFC.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.08-02.46.26:256][942]LogFileHelpers: No new changes to save!
+[2023.04.08-02.46.26:256][942]LogFileHelpers: Saving map 'DemoLevel' took 0.075
+[2023.04.08-02.46.26:256][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MyCharacter" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyCharacter.uasset" SILENT=true
+[2023.04.08-02.46.26:262][942]LogSavePackage: Moving output files for package: /Game/MyContent/MyCharacter
+[2023.04.08-02.46.26:262][942]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/MyCharacter5B9E80AF41AA83AEB34590A9A5F2617F.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyCharacter.uasset'
+[2023.04.08-02.46.26:268][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 534 ms)
+[2023.04.08-02.46.26:275][942]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.08-02.46.26:275][942]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/MyCharacter.MyCharacter
+[2023.04.08-02.46.26:275][942]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.08-02.46.31:788][443]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Orb.Orb
+[2023.04.08-02.46.31:788][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.08-02.48.01:060][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.04.08-02.48.01:064][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.08-02.48.01:120][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Orb" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/Orb.uasset" SILENT=true
+[2023.04.08-02.48.01:127][822]LogSavePackage: Moving output files for package: /Game/MyContent/Orb
+[2023.04.08-02.48.01:127][822]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/Orb9D389A7C4792D4063D82D3A8D3496AE1.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/Orb.uasset'
+[2023.04.08-02.48.01:131][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 601 ms)
+[2023.04.08-02.48.01:138][822]AssetCheck: New page: Asset Save: Orb
+[2023.04.08-02.48.01:139][822]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Orb.Orb
+[2023.04.08-02.48.02:321][962]BlueprintLog: New page: Compile Orb
+[2023.04.08-02.48.02:390][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.04.08-02.48.02:748][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.04.08-02.48.02:752][992]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.08-02.48.02:774][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/DemoLevel" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.08-02.48.02:819][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.04.08-02.48.02:846][992]LogSavePackage: Moving output files for package: /Game/MyContent/DemoLevel
+[2023.04.08-02.48.02:846][992]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/DemoLevelFC42C48345CDC0305F96BDB70C60A674.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/DemoLevel.umap'
+[2023.04.08-02.48.02:851][992]LogFileHelpers: No new changes to save!
+[2023.04.08-02.48.02:851][992]LogFileHelpers: Saving map 'DemoLevel' took 0.077
+[2023.04.08-02.48.02:856][992]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 705 ms)
+[2023.04.08-02.48.02:865][992]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.08-02.48.02:865][992]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/DemoLevel.DemoLevel
+[2023.04.08-02.49.01:673][944]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.08-02.49.13:150][198]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.08-02.50.34:036][290]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.08-02.50.34:057][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MyHUD" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyHUD.uasset" SILENT=true
+[2023.04.08-02.50.34:066][290]LogSavePackage: Moving output files for package: /Game/MyContent/MyHUD
+[2023.04.08-02.50.34:066][290]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/MyHUD00050157414DC2C3830695BE9E5814DB.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyHUD.uasset'
+[2023.04.08-02.50.34:071][290]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 740 ms)
+[2023.04.08-02.50.34:079][290]AssetCheck: New page: Asset Save: MyHUD
+[2023.04.08-02.50.34:079][290]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/MyHUD.MyHUD
+[2023.04.08-02.50.54:535][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.08-02.50.54:560][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MyHUD" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyHUD.uasset" SILENT=true
+[2023.04.08-02.50.54:567][119]LogSavePackage: Moving output files for package: /Game/MyContent/MyHUD
+[2023.04.08-02.50.54:567][119]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/MyHUD93F0AA6B49C319D2568189BE1E083475.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyHUD.uasset'
+[2023.04.08-02.50.54:572][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 777 ms)
+[2023.04.08-02.50.54:580][119]AssetCheck: New page: Asset Save: MyHUD
+[2023.04.08-02.50.54:580][119]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/MyHUD.MyHUD
+[2023.04.08-02.50.55:074][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.04.08-02.51.10:078][970]BlueprintLog: New page: Compile MyHUD
+[2023.04.08-02.51.10:134][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.04.08-02.51.12:007][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.04.08-02.51.14:072][236]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.04.08-02.51.14:072][236]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.04.08-02.51.40:144][592]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.08-02.52.38:206][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.04.08-02.52.38:211][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.08-02.52.38:238][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/MyHUD" FILE="D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyHUD.uasset" SILENT=true
+[2023.04.08-02.52.38:246][550]LogSavePackage: Moving output files for package: /Game/MyContent/MyHUD
+[2023.04.08-02.52.38:246][550]LogSavePackage: Moving 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Saved/MyHUD757F89B6417063FDE068F5B91042F710.tmp' to 'D:/Code/unreal-engine-five-beginner-tutorial-fps/Content/MyContent/MyHUD.uasset'
+[2023.04.08-02.52.38:251][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 818 ms)
+[2023.04.08-02.52.38:260][550]AssetCheck: New page: Asset Save: MyHUD
+[2023.04.08-02.52.38:260][550]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/MyHUD.MyHUD
+[2023.04.08-02.52.43:376][164]BlueprintLog: New page: Compile MyHUD
+[2023.04.08-02.52.43:443][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.04.08-02.52.44:456][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.04.08-02.52.46:819][522]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.08-02.52.46:824][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.08-02.52.46:824][522]PIE: New page: PIE session: DemoLevel (Apr 7, 2023, 2:52:46 PM)
+[2023.04.08-02.52.46:824][522]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.08-02.52.46:855][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030969s)
+[2023.04.08-02.52.46:855][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.031001s)
+[2023.04.08-02.52.46:855][522]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.08-02.52.46:856][522]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.08-02.52.46:856][522]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2023.04.08-02.52.46:903][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.04.08-02.52.46:905][522]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.08-02.52.46:905][522]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.08-02.52.46:905][522]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.08-02.52.46:905][522]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.08-02.52.46:905][522]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.08-02.52.46:905][522]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.08-02.52.46:907][522]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.08-02.52.46:924][522]LogAudioMixer: Display: Using Audio Hardware Device Headphones (AirPods Max)
+[2023.04.08-02.52.46:924][522]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.08-02.52.46:924][522]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.08-02.52.46:924][522]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.08-02.52.46:925][522]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.04.08-02.52.46:925][522]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.04.08-02.52.46:926][522]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.04.08-02.52.46:926][522]LogInit: FAudioDevice initialized.
+[2023.04.08-02.52.46:926][522]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.04.08-02.52.46:926][522]LogAudio: Display: Audio Device (ID: 4) registered with world 'DemoLevel'.
+[2023.04.08-02.52.46:929][522]LogLoad: Game class is 'MyGameMode_C'
+[2023.04.08-02.52.46:932][522]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.07-20.52.46
+[2023.04.08-02.52.46:932][522]LogWorld: Bringing up level for play took: 0.002967
+[2023.04.08-02.52.46:934][522]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.04.08-02.52.46:935][522]PIE: Server logged in
+[2023.04.08-02.52.46:936][522]PIE: Play in editor total start time 0.113 seconds.
+[2023.04.08-02.52.51:979][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.08-02.52.51:979][823]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.08-02.52.51:979][823]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.08-02.52.51:979][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.08-02.52.51:982][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.08-02.52.51:987][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.08-02.52.52:034][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.08-02.52.52:034][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.08-02.52.52:035][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.04.08-02.52.52:039][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.08-02.52.52:043][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.04.08-02.52.52:065][824]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: ================================================
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: Total job queries 188, among them cache hits 38 (20.21%)
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: Tracking 150 distinct input hashes that result in 116 distinct outputs (77.33%)
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: RAM used: 1.26 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.08-02.52.52:097][826]LogShaderCompilers: Display: ================================================
+[2023.04.08-02.52.54:095][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.08-02.52.54:099][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.08-02.52.54:099][981]PIE: New page: PIE session: DemoLevel (Apr 7, 2023, 2:52:54 PM)
+[2023.04.08-02.52.54:100][981]LogPlayLevel: Creating play world package: /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.08-02.52.54:129][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028263s)
+[2023.04.08-02.52.54:129][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/DemoLevel.DemoLevel to /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel (0.028303s)
+[2023.04.08-02.52.54:129][981]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.08-02.52.54:129][981]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.08-02.52.54:129][981]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2023.04.08-02.52.54:176][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.04.08-02.52.54:178][981]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.08-02.52.54:178][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.08-02.52.54:178][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.08-02.52.54:178][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.08-02.52.54:178][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.08-02.52.54:178][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.08-02.52.54:179][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.08-02.52.54:195][981]LogAudioMixer: Display: Using Audio Hardware Device Headphones (AirPods Max)
+[2023.04.08-02.52.54:196][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.08-02.52.54:196][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.08-02.52.54:196][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.08-02.52.54:197][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.04.08-02.52.54:197][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.04.08-02.52.54:198][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.04.08-02.52.54:198][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.04.08-02.52.54:198][981]LogInit: FAudioDevice initialized.
+[2023.04.08-02.52.54:198][981]LogAudio: Display: Audio Device (ID: 5) registered with world 'DemoLevel'.
+[2023.04.08-02.52.54:201][981]LogLoad: Game class is 'MyGameMode_C'
+[2023.04.08-02.52.54:203][981]LogWorld: Bringing World /Game/MyContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.07-20.52.54
+[2023.04.08-02.52.54:203][981]LogWorld: Bringing up level for play took: 0.002614
+[2023.04.08-02.52.54:205][981]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.04.08-02.52.54:206][981]PIE: Server logged in
+[2023.04.08-02.52.54:206][981]PIE: Play in editor total start time 0.107 seconds.
+[2023.04.08-02.53.05:309][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.08-02.53.05:309][ 29]LogWorld: BeginTearingDown for /Game/MyContent/UEDPIE_0_DemoLevel
+[2023.04.08-02.53.05:309][ 29]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.08-02.53.05:309][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.08-02.53.05:312][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.08-02.53.05:318][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.08-02.53.05:366][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.08-02.53.05:366][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.04.08-02.53.05:368][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.04.08-02.53.05:371][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.08-02.53.05:374][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.04.08-02.53.05:408][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_16
